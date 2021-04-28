@@ -1,0 +1,54 @@
+
+
+class simpleGame {
+
+static void setTodefaultNumber(int variableName){
+ return variableName = variableName + 0;
+}
+
+ class public static void main(String[]args){
+ 
+ simpleGame obj0 = new simpleGame();
+ 
+ String textAnswers[] = {"0","1","2"};
+ 
+ String data0[],data1[],data2[];
+ 
+        data0[] = {"1-2-3", //0
+                   "X-2-3", //1
+                                "1-X-3", //2
+                                             "1-2-X", //3
+                   "X-O-3", //4
+                   "X-2-O", //5
+                   "X-X-3", //6
+                   "X-2-X", //7
+                   "X-O-X", //8
+                   "X-X-O", //9
+                   "X-O-O", //10
+                                
+                                "O-X-3", //11
+                                "1-X-O", //12
+                                "X-X-3", //13
+                                "1-X-X", //14
+                                "O-X-O", //15
+                                "O-X-X", //16
+                                
+                                             "O-2-X", //17
+                                             "1-O-X", //18
+                                             //stopped here
+                  };
+        
+ 
+ String mssg0,mssg1,mssg2;
+        mssg0 = "winner";
+        mssg1 = "loser";
+        mssg2 = "error";
+ 
+ int A1,A2,A3,
+     B1,B2,B3,
+     C1,C2,C3;
+ 
+ 
+ }
+ 
+}
